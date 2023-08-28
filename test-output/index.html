@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Capstone1Suite" class="navigator-link">
+              <span class="suite-name border-failed">Capstone1Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Capstone1Suite" class="navigator-link ">
+                    <span>C:\Users\MRIDUL\eclipse\myworkspace\Capstone1\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Capstone1Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Capstone1Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Capstone1Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Capstone1Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Capstone1Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Capstone1Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Capstone1Suite" class="hide-methods failed suite-Capstone1Suite"> (hide)</a> <!-- hide-methods failed suite-Capstone1Suite -->
+                      <a href="#" panel-name="suite-Capstone1Suite" class="show-methods failed suite-Capstone1Suite"> (show)</a> <!-- show-methods failed suite-Capstone1Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Capstone1Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone1Suite" title="JavaAuto.Capstone1.testCodeCopy" class="method navigator-link" hash-for-method="invalidLoginVerify(standard_Invaliduser, secret_Invalidpwd)">invalidLoginVerify(standard_Invaliduser, secret_Invalidpwd)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Capstone1Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Capstone1Suite" class="hide-methods passed suite-Capstone1Suite"> (hide)</a> <!-- hide-methods passed suite-Capstone1Suite -->
+                      <a href="#" panel-name="suite-Capstone1Suite" class="show-methods passed suite-Capstone1Suite"> (show)</a> <!-- show-methods passed suite-Capstone1Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Capstone1Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone1Suite" title="JavaAuto.Capstone1.testCodeCopy" class="method navigator-link" hash-for-method="titleVerify1">titleVerify1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone1Suite" title="JavaAuto.Capstone1.testCodeCopy" class="method navigator-link" hash-for-method="titleVerify2">titleVerify2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Capstone1Suite" title="JavaAuto.Capstone1.testCodeCopy" class="method navigator-link" hash-for-method="validLoginVerify(standard_user, secret_sauce)">validLoginVerify(standard_user, secret_sauce)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Capstone1Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Capstone1Suite" class="panel Capstone1Suite">
+          <div class="suite-Capstone1Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">JavaAuto.Capstone1.testCodeCopy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidLoginVerify(standard_Invaliduser, secret_Invalidpwd)">
+                  </a> <!-- invalidLoginVerify(standard_Invaliduser, secret_Invalidpwd) -->
+                  <span class="method-name">invalidLoginVerify</span>
+                  <span class="parameters">(standard_Invaliduser, secret_Invalidpwd)</span>
+                  <div class="stack-trace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.className: error-message (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.6&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.111, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\MRIDUL\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57684}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:57684/devtoo..., se:cdpVersion: 116.0.5845.111, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6a9e9eb722d7a876a7bab878306ccb67
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:87)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at JavaAuto.Capstone1.testCodeCopy.invalidLoginVerify(testCodeCopy.java:101)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone1Suite-class-failed -->
+          <div class="suite-Capstone1Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">JavaAuto.Capstone1.testCodeCopy</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleVerify1">
+                  </a> <!-- titleVerify1 -->
+                  <span class="method-name">titleVerify1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="titleVerify2">
+                  </a> <!-- titleVerify2 -->
+                  <span class="method-name">titleVerify2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginVerify(standard_user, secret_sauce)">
+                  </a> <!-- validLoginVerify(standard_user, secret_sauce) -->
+                  <span class="method-name">validLoginVerify</span>
+                  <span class="parameters">(standard_user, secret_sauce)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Capstone1Suite-class-passed -->
+        </div> <!-- panel Capstone1Suite -->
+        <div panel-name="test-xml-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\MRIDUL\eclipse\myworkspace\Capstone1\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Capstone1Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;TestCode&quot;&gt;
+    &lt;parameter name=&quot;invalidUsername&quot; value=&quot;standard_Invaliduser&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;parameter name=&quot;invalidPassword&quot; value=&quot;secret_Invalidpwd&quot;/&gt;
+    &lt;parameter name=&quot;validPassword&quot; value=&quot;secret_sauce&quot;/&gt;
+    &lt;parameter name=&quot;validUsername&quot; value=&quot;standard_user&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;JavaAuto.Capstone1.testCodeCopy&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- TestCode --&gt;
+&lt;/suite&gt; &lt;!-- Capstone1Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Capstone1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">TestCode (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Capstone1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Capstone1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Capstone1Suite');
+function tableData_Capstone1Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(4);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'invalidLoginVerify')
+data.setCell(0, 2, 'JavaAuto.Capstone1.testCodeCopy')
+data.setCell(0, 3, 9472);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'validLoginVerify')
+data.setCell(1, 2, 'JavaAuto.Capstone1.testCodeCopy')
+data.setCell(1, 3, 6256);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'titleVerify1')
+data.setCell(2, 2, 'JavaAuto.Capstone1.testCodeCopy')
+data.setCell(2, 3, 4015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'titleVerify2')
+data.setCell(3, 2, 'JavaAuto.Capstone1.testCodeCopy')
+data.setCell(3, 3, 2069);
+window.suiteTableData['Capstone1Suite']= { tableData: data, tableDiv: 'times-div-Capstone1Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Capstone1Suite">
+              </div> <!-- times-div-Capstone1Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Capstone1Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Capstone1Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">JavaAuto.Capstone1.testCodeCopy</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">driverSetup(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">titleVerify1</span>
+                <span class="method-start">1517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ssMethod([TestResult name=titleVerify1 status=SUCCESS method=testCodeCopy.titleVerify1()[pri:1, instance:Java...)</span>
+                <span class="method-start">5536 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validLoginVerify(standard_user, secret_sauce)</span>
+                <span class="method-start">5539 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ssMethod([TestResult name=validLoginVerify status=SUCCESS method=testCodeCopy.validLoginVerify(java.lang.Stri...)</span>
+                <span class="method-start">11798 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">titleVerify2</span>
+                <span class="method-start">11800 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ssMethod([TestResult name=titleVerify2 status=SUCCESS method=testCodeCopy.titleVerify2()[pri:3, instance:Java...)</span>
+                <span class="method-start">13871 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">invalidLoginVerify(standard_Invaliduser, secret_Invalidpwd)</span>
+                <span class="method-start">13873 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">ssMethod([TestResult name=invalidLoginVerify status=FAILURE method=testCodeCopy.invalidLoginVerify(java.lang....)</span>
+                <span class="method-start">23348 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">23479 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

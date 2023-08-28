@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Capstone1Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestCode(failed)">
+    <parameter name="invalidUsername" value="standard_Invaliduser"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="invalidPassword" value="secret_Invalidpwd"/>
+    <parameter name="validPassword" value="secret_sauce"/>
+    <parameter name="validUsername" value="standard_user"/>
+    <classes>
+      <class name="JavaAuto.Capstone1.testCodeCopy">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="invalidLoginVerify" invocation-numbers="0"/>
+          <include name="ssMethod"/>
+          <include name="driverSetup"/>
+        </methods>
+      </class> <!-- JavaAuto.Capstone1.testCodeCopy -->
+    </classes>
+  </test> <!-- TestCode(failed) -->
+</suite> <!-- Failed suite [Capstone1Suite] -->
